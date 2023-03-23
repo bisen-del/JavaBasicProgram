@@ -1,3 +1,7 @@
+/* java program to find majority element using hashmap  */
+/* Time complexity=O(n) */
+/* space comlexity=O(n) */
+
 package com.company;
 import java.util.*;
 import java.util.HashMap;
