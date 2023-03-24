@@ -13,14 +13,12 @@ public class perfectSquare {
     }
     public static long findNextSquare(long sq) {
 
-        int n=(int)Math.sqrt(sq);
-        if(n*n!=sq){
-            return -1;
-        }else{
-            n=n+1;
-        }
-
-        return n*n;
+    double root = Math.sqrt(sq);
+    if (root % 1 != 0) {
+        return -1;
+    }
+    long nextRoot = (long) Math.sqrt(sq) + 1;
+    return nextRoot * nextRoot;
     }
 
 }
