@@ -1,4 +1,4 @@
-/*Given an array Arr of size N, print second largest distinct element from an array.*/
+/*print second largest distinct element from an array using HashSet.*/
 package com.company.JavaBasicProgram;
 
 import java.util.HashSet;
