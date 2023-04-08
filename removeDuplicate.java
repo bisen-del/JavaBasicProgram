@@ -1,3 +1,4 @@
+/*remove Duplicate from an array */
 package com.company.JavaBasicProgram;
 
 import java.util.ArrayList;
