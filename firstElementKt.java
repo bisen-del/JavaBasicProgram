@@ -1,4 +1,4 @@
-
+/*Given an array of N integers. Find the first element that occurs at least K number of times.*/
 package com.company.JavaBasicProgram;
 
 import java.util.HashMap;
