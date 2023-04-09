@@ -1,4 +1,4 @@
-
+/* Majority element in java using HashMap */
 package com.company.JavaBasicProgram;
 
 import java.util.HashMap;
