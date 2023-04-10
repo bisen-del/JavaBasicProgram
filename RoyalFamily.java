@@ -1,3 +1,17 @@
+//Each Christmas, the members of the royal family exchange gifts with each other. The family has n members numbered from 1 to n. However, not everyone in the family gives and receives the same number of gifts.
+
+// The youngest member receives a gift from everyone else in the family except himself but does not give any gifts to anyone else. This Christmas, there were a total of m gifts that were exchanged among the family members. You are provided with the data for all m gifts. Find the number that represents the youngest family member using the given data.
+
+// Input Format
+// The first line of the input contains two integers n and m – the number of family members and the number of gifts that were exchanged.
+// The next m lines contain two integers each. In the ith line, two integers ai, bi represent that a gift was given by ai to bi.
+// Note: any ordered pair (ai, bi) will not occur more than once, i.e., a family member does not give more than one gift to the same member.
+// Testcase Input
+// 2 1
+// 1 2
+// Testcase Output
+// 2
+
 package com.company.JavaBasicProgram;
 
 import java.util.HashMap;
