@@ -23,14 +23,20 @@ package com.company.JavaBasicProgram;
 
 public class Findkth {
     public static void main(String[] args) {
-        StringBuilder manu=new StringBuilder("programming");
-        int k=4;
-        StringBuilder m=manu.reverse();
-        for(int i=0;i<manu.length();i++){
-            if(i==k){
-                System.out.println(m.charAt(i));
-            }
-        }
+      Scanner sc = new Scanner(System.in);
+
+        // Input the length of the string and kth character
+        int n = sc.nextInt();
+        int k = sc.nextInt();
+
+        // Input the string
+        String str = sc.next();
+
+        // Reverse the string
+        String reversedStr = new StringBuilder(str).reverse().toString();
+
+        // Print the kth character of the reversed string
+        System.out.println(reversedStr.charAt(k - 1));
 
 
     }
