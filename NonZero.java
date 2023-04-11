@@ -1,4 +1,7 @@
-//Alice is a software developer, and she recently faced a bug that showed up weirdly. The bug constantly shows up a stream of numbers on her computer. The stream of numbers consists of zero and non-zero values. The only solution to this bug is to adjust the array so that all zeros move in the end and non-zero values come at the start. Here’s a catch: the relative ordering of the elements should be the same after modifying that stream. Can You Help Alice in resolving the bug??
+// Alice is a software developer, and she recently faced a bug that showed up weirdly. The bug constantly shows up a stream of numbers on her computer. 
+// The stream of numbers consists of zero and non-zero values. The only solution to this bug is to adjust the array so that all zeros move in the end and non-zero
+// values come at the start. Here’s a catch: the relative ordering of the elements should be the same after modifying that stream. Can You Help Alice in resolving
+// the bug??
 
 // Input Format
 // The first line of the input contains 'n' number of elements
