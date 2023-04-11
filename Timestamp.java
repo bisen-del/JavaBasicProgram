@@ -32,9 +32,9 @@
 // At an index 2 and 3 the queue size is maximum  i.e. 3. 
 
 
-// package com.company.JavaBasicProgram;
+ package com.company.JavaBasicProgram;
 
-// import java.util.Scanner;
+ import java.util.Scanner;
 
 public class Timestamp {
     public static void main(String[] args) {
