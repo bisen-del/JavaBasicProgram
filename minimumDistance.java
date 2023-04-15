@@ -1,3 +1,20 @@
+/* Given an unsorted array arr[] and two numbers x and y, find the minimum distance between x and y in arr[]. The array might also contain duplicates.
+You may assume that both x and y are different and present in arr[].
+
+Examples: 
+
+Input: arr[] = {1, 2}, x = 1, y = 2
+Output: Minimum distance between 1 
+and 2 is 1.
+Explanation: 1 is at index 0 and 2 is at 
+index 1, so the distance is 1
+
+Input: arr[] = {3, 4, 5}, x = 3, y = 5
+Output: Minimum distance between 3 
+and 5 is 2.
+Explanation:3 is at index 0 and 5 is at 
+index 2, so the distance is 2 */
+
 package com.company.JavaBasicProgram;
 
 import java.util.Scanner;
