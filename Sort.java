@@ -1,4 +1,4 @@
-/*Bubble sort*/
+/* sorting using Bubble sort*/
 
 
 
